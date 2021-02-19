@@ -12,7 +12,7 @@ class Controller extends Package
 {
     protected $pkgHandle = 'login_log';
     protected $appVersionRequired = '5.7.4';
-    protected $pkgVersion = '0.9.6';
+    protected $pkgVersion = '1.0';
 
     protected $single_pages = array(
         '/dashboard/system/registration/login_log' => array(
