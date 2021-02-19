@@ -1,0 +1,66 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: login_log 0.9.0\n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2016-05-15T09:07:50+00:00\n"
+"PO-Revision-Date: 2016-05-15 11:11+0200\n"
+"Language: nl_NL\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.6\n"
+
+#: packages/login_log/controller.php:24
+msgid "Login Log"
+msgstr "Login Log"
+
+#: packages/login_log/controller.php:29
+msgid "Keep verbose logs of each authentication."
+msgstr "Bewaar uitgebreide logs van elke authenticatie."
+
+#: packages/login_log/controllers/single_page/dashboard/system/registration/login_log.php:65
+msgid "Settings saved"
+msgstr "Instellingen opgeslagen"
+
+#: packages/login_log/controllers/single_page/dashboard/system/registration/login_log.php:120
+msgid "Invalid group."
+msgstr "Ongeldige groep."
+
+#: packages/login_log/single_pages/dashboard/system/registration/login_log.php:29
+msgid "Enable Authentication Logging"
+msgstr "Schakel authenticatielogs in"
+
+#: packages/login_log/single_pages/dashboard/system/registration/login_log.php:35
+msgid "Only enable logging for the groups below:"
+msgstr "Schakel logs alleen in voor onderstaande groepen:"
+
+#: packages/login_log/single_pages/dashboard/system/registration/login_log.php:42
+msgid "Add Groups"
+msgstr "Voeg groepen toe"
+
+#: packages/login_log/single_pages/dashboard/system/registration/login_log.php:42
+msgid "Add Group"
+msgstr "Voeg groep toe"
+
+#: packages/login_log/single_pages/dashboard/system/registration/login_log.php:47
+msgid "Save"
+msgstr "Opslaan"
+
+#: packages/login_log/src/LoginLog/LoginLog.php:57
+msgid "User logged in: %s"
+msgstr "Gebruiker ingelogd: %s"
+
+#: packages/login_log/src/LoginLog/LoginLog.php:64
+msgid "IP address: %s"
+msgstr "IP-adres: %s"
+
+#: packages/login_log/src/LoginLog/LoginLog.php:74
+msgid "Authentication type: %s"
+msgstr "Authenticatietype: %s"
+
+#: packages/login_log/src/LoginLog/LoginLog.php:84
+msgid "User agent: %s"
+msgstr "User agent: %s"
