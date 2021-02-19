@@ -34,7 +34,7 @@ class LoginLog
         $db = $app->make('database')->connection();
         $group_ids = $config->get('login_log.group_ids');
 
-        if (count($group_ids)) {
+        if ($group_ids) {
             $isInGroups = false;
             if (is_array($group_ids)) {
                 $group_ids = implode(",", $group_ids);

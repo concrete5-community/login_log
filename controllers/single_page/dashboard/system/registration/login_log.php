@@ -40,9 +40,9 @@ class LoginLog extends DashboardPageController
 
         if (Core::make('token')->validate('login_log.settings.save')) {
             $group_ids = array();
-            $group_ids_post = $this->post('groups');
+            $group_ids_post = (array) $this->post('groups');
 
-            if (is_array($group_ids_post) && count($group_ids_post) > 0) {
+            if (is_array($group_ids_post) && count($group_ids_post)) {
                 foreach ($group_ids_post as $key => $gid) {
                     $gid = Core::make('helper/security')->sanitizeInt($gid);
                     $g = Group::getByID($gid);
